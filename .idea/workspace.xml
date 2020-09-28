@@ -1,0 +1,192 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="5a211f48-b4ea-4623-a3b3-5542a97cecd1" name="Default Changelist" comment="" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectId" id="1gYXNQOrM0J8qrhZ1kHVCxrbKVL" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyIntegratedToolsModulesConfigurable" />
+  </component>
+  <component name="RunManager" selected="Python tests.pytest for test_price_page.TestCianPrice.test_price_region_page">
+    <configuration default="true" type="tests" factoryName="py.test">
+      <module name="HomeWork11" />
+      <option name="INTERPRETER_OPTIONS" value="-s" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../project/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;--vnc --alluredir allure-results&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for test_price_page.TestCianPrice.test_price_region_page" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+      <module name="HomeWork11" />
+      <option name="INTERPRETER_OPTIONS" value="-s" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;test_price_page.TestCianPrice.test_price_region_page&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <configuration name="pytest for " type="tests" factoryName="py.test" nameIsGenerated="true">
+      <module name="HomeWork11" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../project/venv/bin/python" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="_new_keywords" value="&quot;&quot;" />
+      <option name="_new_additionalArguments" value="&quot;-vls --vnc --alluredir allure-results&quot;" />
+      <option name="_new_target" value="&quot;&quot;" />
+      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python tests.pytest for " />
+      <item itemvalue="Python tests.pytest for test_price_page.TestCianPrice.test_price_region_page" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python tests.pytest for test_price_page.TestCianPrice.test_price_region_page" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="5a211f48-b4ea-4623-a3b3-5542a97cecd1" name="Default Changelist" comment="" />
+      <created>1598292458860</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1598292458860</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="195" y="95" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1598897868090">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="195" y="95" width="1071" height="699" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1440.900@0.0.1440.900" timestamp="1598897868090" />
+    <state x="507" y="176" key="#com.intellij.ide.macro.MacrosDialog" timestamp="1598812937582">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="507" y="176" key="#com.intellij.ide.macro.MacrosDialog/0.0.1440.900@0.0.1440.900" timestamp="1598812937582" />
+    <state x="485" y="308" key="#com.intellij.tools.ToolEditorDialog" timestamp="1598812938769">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="485" y="308" key="#com.intellij.tools.ToolEditorDialog/0.0.1440.900@0.0.1440.900" timestamp="1598812938769" />
+    <state x="474" y="234" key="EnvironmentVariablesDialog" timestamp="1598812882273">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="474" y="234" key="EnvironmentVariablesDialog/0.0.1440.900@0.0.1440.900" timestamp="1598812882273" />
+    <state width="1419" height="297" key="GridCell.Tab.0.bottom" timestamp="1601294627040">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="520" key="GridCell.Tab.0.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601236492317" />
+    <state width="1419" height="297" key="GridCell.Tab.0.bottom/0.23.1440.814@0.23.1440.814" timestamp="1601294627040" />
+    <state width="1419" height="258" key="GridCell.Tab.0.bottom/0.23.1440.826@0.23.1440.826" timestamp="1598811767198" />
+    <state width="1419" height="303" key="GridCell.Tab.0.bottom/0.23.1440.828@0.23.1440.828" timestamp="1598891882580" />
+    <state width="1419" height="297" key="GridCell.Tab.0.center" timestamp="1601294627039">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="520" key="GridCell.Tab.0.center/0.0.1440.900@0.0.1440.900" timestamp="1601236492316" />
+    <state width="1419" height="297" key="GridCell.Tab.0.center/0.23.1440.814@0.23.1440.814" timestamp="1601294627039" />
+    <state width="1419" height="258" key="GridCell.Tab.0.center/0.23.1440.826@0.23.1440.826" timestamp="1598811767196" />
+    <state width="1419" height="303" key="GridCell.Tab.0.center/0.23.1440.828@0.23.1440.828" timestamp="1598891882579" />
+    <state width="1419" height="297" key="GridCell.Tab.0.left" timestamp="1601294627039">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="520" key="GridCell.Tab.0.left/0.0.1440.900@0.0.1440.900" timestamp="1601236492315" />
+    <state width="1419" height="297" key="GridCell.Tab.0.left/0.23.1440.814@0.23.1440.814" timestamp="1601294627039" />
+    <state width="1419" height="258" key="GridCell.Tab.0.left/0.23.1440.826@0.23.1440.826" timestamp="1598811767195" />
+    <state width="1419" height="303" key="GridCell.Tab.0.left/0.23.1440.828@0.23.1440.828" timestamp="1598891882578" />
+    <state width="1419" height="297" key="GridCell.Tab.0.right" timestamp="1601294627039">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="520" key="GridCell.Tab.0.right/0.0.1440.900@0.0.1440.900" timestamp="1601236492316" />
+    <state width="1419" height="297" key="GridCell.Tab.0.right/0.23.1440.814@0.23.1440.814" timestamp="1601294627039" />
+    <state width="1419" height="258" key="GridCell.Tab.0.right/0.23.1440.826@0.23.1440.826" timestamp="1598811767197" />
+    <state width="1419" height="303" key="GridCell.Tab.0.right/0.23.1440.828@0.23.1440.828" timestamp="1598891882579" />
+    <state width="1419" height="297" key="GridCell.Tab.1.bottom" timestamp="1601294626966">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="346" key="GridCell.Tab.1.bottom/0.0.1440.900@0.0.1440.900" timestamp="1601236374239" />
+    <state width="1419" height="297" key="GridCell.Tab.1.bottom/0.23.1440.814@0.23.1440.814" timestamp="1601294626966" />
+    <state width="1419" height="258" key="GridCell.Tab.1.bottom/0.23.1440.826@0.23.1440.826" timestamp="1598811767200" />
+    <state width="1419" height="303" key="GridCell.Tab.1.bottom/0.23.1440.828@0.23.1440.828" timestamp="1598891882582" />
+    <state width="1419" height="297" key="GridCell.Tab.1.center" timestamp="1601294626965">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="346" key="GridCell.Tab.1.center/0.0.1440.900@0.0.1440.900" timestamp="1601236374238" />
+    <state width="1419" height="297" key="GridCell.Tab.1.center/0.23.1440.814@0.23.1440.814" timestamp="1601294626965" />
+    <state width="1419" height="258" key="GridCell.Tab.1.center/0.23.1440.826@0.23.1440.826" timestamp="1598811767199" />
+    <state width="1419" height="303" key="GridCell.Tab.1.center/0.23.1440.828@0.23.1440.828" timestamp="1598891882581" />
+    <state width="1419" height="297" key="GridCell.Tab.1.left" timestamp="1601294626965">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="346" key="GridCell.Tab.1.left/0.0.1440.900@0.0.1440.900" timestamp="1601236374238" />
+    <state width="1419" height="297" key="GridCell.Tab.1.left/0.23.1440.814@0.23.1440.814" timestamp="1601294626965" />
+    <state width="1419" height="258" key="GridCell.Tab.1.left/0.23.1440.826@0.23.1440.826" timestamp="1598811767198" />
+    <state width="1419" height="303" key="GridCell.Tab.1.left/0.23.1440.828@0.23.1440.828" timestamp="1598891882580" />
+    <state width="1419" height="297" key="GridCell.Tab.1.right" timestamp="1601294626966">
+      <screen x="0" y="23" width="1440" height="814" />
+    </state>
+    <state width="1419" height="346" key="GridCell.Tab.1.right/0.0.1440.900@0.0.1440.900" timestamp="1601236374239" />
+    <state width="1419" height="297" key="GridCell.Tab.1.right/0.23.1440.814@0.23.1440.814" timestamp="1601294626966" />
+    <state width="1419" height="258" key="GridCell.Tab.1.right/0.23.1440.826@0.23.1440.826" timestamp="1598811767199" />
+    <state width="1419" height="303" key="GridCell.Tab.1.right/0.23.1440.828@0.23.1440.828" timestamp="1598891882581" />
+    <state x="229" y="89" key="SettingsEditor" timestamp="1598888855943">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="229" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1598888855943" />
+    <state width="720" height="450" key="XDebugger.FullValuePopup" timestamp="1600625882755">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state width="720" height="450" key="XDebugger.FullValuePopup/0.0.1440.900@0.0.1440.900" timestamp="1600625882755" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog" timestamp="1601232116147">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.0.1440.900@0.0.1440.900" timestamp="1601232116147" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.822@0.23.1440.822" timestamp="1598944201857" />
+    <state x="376" y="284" key="com.intellij.ide.util.TipDialog/0.23.1440.823@0.23.1440.823" timestamp="1598816289016" />
+    <state x="610" y="206" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey" timestamp="1598813072862">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="610" y="206" key="com.intellij.tools.ToolSelectDialog.dimensionServiceKey/0.0.1440.900@0.0.1440.900" timestamp="1598813072862" />
+    <state x="283" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1601233498196">
+      <screen x="0" y="0" width="1440" height="900" />
+    </state>
+    <state x="283" y="194" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1440.900@0.0.1440.900" timestamp="1601233498196" />
+  </component>
+</project>
