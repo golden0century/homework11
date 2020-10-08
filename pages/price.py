@@ -1,4 +1,5 @@
 from pages.page import BasePage
+from pages.region_value import RegionValueClass
 
 
 class PricePageLocators:
@@ -10,6 +11,8 @@ class PricePageLocators:
     Price_Page_ChooseRegionBlock = "//select[@id ='body_ddlRegions']"
     Price_Page_ChooseRegionItem = "//option[@value ='{}']"
     Price_Page_ChooseRegionItemSelected = "//option[@value ='{}'][@selected='selected']/ancestor::*[@class='dmSelect']"
+    Price_Page_PricesBlock = "//table[@class = 'publishPrices']"
+    Price_Page_TarifBlock = "//table[@id = 'tarif']"
     Price_Page_Footer = "//div[@class = 'cf-footer']"
 
     @staticmethod
@@ -19,15 +22,39 @@ class PricePageLocators:
 
 class PricePageActions(BasePage):
 
-    def choose_region(self):
-        new_locator = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected, "2000")
-        new_locator1 = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItem, "1998")
-        new_locator2 = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected, "1998")
+    def choose_region(self, poligon_id):
+        locator_Moscow = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected,
+                                                          RegionValueClass.moscow)
+        locator_poligon = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItem, poligon_id)
+        locator_poligon_selected = PricePageLocators.update_locator(
+            PricePageLocators.Price_Page_ChooseRegionItemSelected, poligon_id)
         self.find_element(PricePageLocators.Price_Page_Banner)
         self.find_element(PricePageLocators.Price_Page_MainBlock)
         self.find_element(PricePageLocators.Price_Page_Banner_Capital)
         self.find_element(PricePageLocators.Price_Page_ChooseRegionBlock)
-        self.click_to_element(new_locator)
-        self.click_to_element(new_locator1)
-        self.find_element(new_locator2)
+        self.click_to_element(locator_Moscow)
+        self.click_to_element(locator_poligon)
+        self.find_element(locator_poligon_selected)
+        assert (self.driver.current_url, self.base_url + "price/?polygonId=" + poligon_id)
+
+    def check_capital_price(self, poligon_id):
+        locator_poligon = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected,
+                                                           poligon_id)
+        self.find_element(PricePageLocators.Price_Page_Banner)
+        self.find_element(PricePageLocators.Price_Page_Banner_Capital)
+        self.find_element(PricePageLocators.Price_Page_MainBlock)
+        self.find_element(PricePageLocators.Price_Page_ChooseRegionBlock)
+        self.find_element(locator_poligon)
+        self.find_element(PricePageLocators.Price_Page_Footer)
+
+    def check_region_price(self, poligon_id):
+        locator_poligon = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected,
+                                                           poligon_id)
+        self.find_element(PricePageLocators.Price_Page_Banner)
         self.find_element(PricePageLocators.Price_Page_Banner_Region)
+        self.find_element(PricePageLocators.Price_Page_MainBlock)
+        self.find_element(PricePageLocators.Price_Page_ChooseRegionBlock)
+        self.find_element(locator_poligon)
+        self.find_elements(PricePageLocators.Price_Page_PricesBlock)
+        self.find_element(PricePageLocators.Price_Page_TarifBlock)
+        self.find_element(PricePageLocators.Price_Page_Footer)
