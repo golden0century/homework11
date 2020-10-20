@@ -11,6 +11,7 @@ class PricePageLocators:
     Price_Page_ChooseRegionBlock = "//select[@id ='body_ddlRegions']"
     Price_Page_ChooseRegionItem = "//option[@value ='{}']"
     Price_Page_ChooseRegionItemSelected = "//option[@value ='{}'][@selected='selected']/ancestor::*[@class='dmSelect']"
+    Price_Page_SubscriptionBlock = "//a[@href='https://promo.cian.ru/ciansubscriptions']/ancestor::*[@class='c_mt15']"
     Price_Page_PricesBlock = "//table[@class = 'publishPrices']"
     Price_Page_TarifBlock = "//table[@id = 'tarif']"
     Price_Page_Footer = "//div[@class = 'cf-footer']"
@@ -40,11 +41,10 @@ class PricePageActions(BasePage):
     def check_capital_price(self, poligon_id):
         locator_poligon = PricePageLocators.update_locator(PricePageLocators.Price_Page_ChooseRegionItemSelected,
                                                            poligon_id)
-        self.find_element(PricePageLocators.Price_Page_Banner)
-        self.find_element(PricePageLocators.Price_Page_Banner_Capital)
         self.find_element(PricePageLocators.Price_Page_MainBlock)
         self.find_element(PricePageLocators.Price_Page_ChooseRegionBlock)
         self.find_element(locator_poligon)
+        self.find_element(PricePageLocators.Price_Page_SubscriptionBlock)
         self.find_element(PricePageLocators.Price_Page_Footer)
 
     def check_region_price(self, poligon_id):
