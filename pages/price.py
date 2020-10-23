@@ -5,6 +5,7 @@ from pages.region_value import RegionValueClass
 class PricePageLocators:
     Price_Page_Header = "//div[contains(@class,'cf_header--embedded')]"
     Price_Page_Banner = "//div[@class='banner-top']"
+    Price_Page_Banner_Capital = "//img[contains(@src, 'subscriptions-banner')]"
     Price_Page_Banner_Region = "//img[contains(@src, 'free-in-regions-banner')]"
     Price_Page_MainBlock = "//div[@class='price-page']"
     Price_Page_ChooseRegionBlock = "//select[@id ='body_ddlRegions']"
@@ -29,7 +30,6 @@ class PricePageActions(BasePage):
         locator_poligon_selected = PricePageLocators.update_locator(
             PricePageLocators.Price_Page_ChooseRegionItemSelected, poligon_id)
         self.find_element(PricePageLocators.Price_Page_MainBlock)
-        self.find_element(PricePageLocators.Price_Page_SubscriptionBlock)
         self.find_element(PricePageLocators.Price_Page_ChooseRegionBlock)
         self.click_to_element(locator_Moscow)
         self.click_to_element(locator_poligon)
